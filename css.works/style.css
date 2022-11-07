@@ -1,0 +1,98 @@
+
+body{
+    
+    background: rgba(37, 43, 66, 1);
+
+}
+
+.navbar .contenier{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    
+
+     
+}
+
+
+.navbar-menu{
+    list-style: none;
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 1);
+    
+
+    
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 30px; 
+    margin-top: 15px;
+}
+        
+       
+
+.navbar-brande{
+    margin-left: 190px;
+    padding-right: 20px;
+    margin-top: 10px;
+    height: 32px;
+width: 145px;
+border-radius: nullpx;
+
+}
+
+
+.navbar-button1{
+    margin-left: 400px;
+  background-color:  rgba(35, 166, 240, 1);
+  color:  rgba(255, 255, 255, 1);
+  width: 137px;
+  height: 52px;
+  height: 52px;
+width: 137px;
+border-radius: 5px;
+padding: 15px 25px 15px 25px;
+margin-top: 30px;
+
+
+  
+}
+
+.navbar-login {
+    margin-left: 60px;
+    padding-top: 30px;
+    
+     
+}
+
+.text-h1{
+    height: 160px;
+width: 542px;
+left: 0px;
+top: 54px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 58px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+    color:  rgba(255, 255, 255, 1);
+    ;
+}
+ 
+
+
+
+
+
+
+    
+
+
