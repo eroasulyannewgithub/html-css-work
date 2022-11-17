@@ -1,77 +1,137 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+  
+    background-color: #252b42;
+    color: #fff;
+    background-image: url(img/none\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 98vh;
+    background-size: contain;
     
-    background: rgba(37, 43, 66, 1);
+    
+     
+
+   
+        
+    
+           
+    
+   
+    
+    
+
 
 }
 
-.navbar .contenier{
+header{
     display: flex;
-    justify-content: flex-start;
-    text-align: center;
+    justify-content: center;
     
+    
+    
+}
 
+.logo, .top-menu{
+    display: inline-block;
+    margin-right: 29px
+}
+
+.top-menu li{ 
+    display: inline-block;
+    list-style: none;
+    height: 24px;
+width: 43px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+     margin-left: 29px;
+     margin-top: 24px;
+      padding-right:  25px; 
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+     
+     
      
 }
 
+.top-menu a{
+    height: 24px;
+width: 43px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+   vertical-align: top;
+  color:  rgba(255, 255, 255, 1); 
+  
 
-.navbar-menu{
-    list-style: none;
-    
-}
-
-
-.navbar a{
-    text-decoration: none;
-    color:  rgba(255, 255, 255, 1);
-    
-
-    
-}
-
-.navbar li{
-    display: inline-block;
-    margin-right: 30px; 
-    margin-top: 15px;
-}
-        
+   
        
+}
 
-.navbar-brande{
-    margin-left: 190px;
-    padding-right: 20px;
-    margin-top: 10px;
+.logo h3 {
     height: 32px;
 width: 145px;
+left: 0px;
+top: 13px;
 border-radius: nullpx;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+margin-right: 50px;
+margin-left: 90px;
+color:#fff ;
+
 
 }
 
+a{
+    text-decoration: none;
+}
 
-.navbar-button1{
-    margin-left: 400px;
-  background-color:  rgba(35, 166, 240, 1);
-  color:  rgba(255, 255, 255, 1);
-  width: 137px;
-  height: 52px;
-  height: 52px;
+.button-1{
+    height: 52px;
 width: 137px;
+left: 0px;
+top: 0px;
 border-radius: 5px;
 padding: 15px 25px 15px 25px;
-margin-top: 30px;
+background: rgba(35, 166, 240, 1);
+  margin-left: 100px;
+  margin-top: 15px;
+  color:  rgba(255, 255, 255, 1);
+   margin-right: 140px;
 
 
-  
 }
 
-.navbar-login {
-    margin-left: 60px;
-    padding-top: 30px;
-    
-     
+.button-img{
+    height: 10px;
+width: 12px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+    margin-left: 10px;
 }
 
-.text-h1{
+.text-h4{
     height: 160px;
 width: 542px;
 left: 0px;
@@ -83,9 +143,128 @@ font-weight: 700;
 line-height: 80px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
-    color:  rgba(255, 255, 255, 1);
-    ;
+margin-top: 10px; 
+margin-left: 110px;
+
 }
+
+.Welcome{
+    height: 24px;
+width: 77px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+   margin-top: 145px; 
+   margin-left: 113px;
+   color:  rgba(35, 166, 240, 1);
+   
+}
+
+
+
+    
+  
+.text-1{
+    height: 60px;
+    width: 376px;
+    left: 0px;
+    top: 244px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 106px;
+}
+   
+ 
+
+
+
+
+.button-2{
+    height: 52px;
+width: 193px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+padding: 15px 40px 15px 40px;
+background: rgba(35, 166, 240, 1);
+margin-left: 100px;
+margin-top: 40px;
+color:  rgba(255, 255, 255, 1);
+
+
+}
+
+.button-3{
+    background: rgba(37, 43, 66, 1);
+    padding: 8px 30px;
+    border: 1px solid #23a6f0;
+    color: #23a6f0;
+    border-radius: 2px;
+    width: 170px;
+    height: 49px;
+    margin-left: 5px;
+    
+
+    
+
+
+     
+    
+
+    
+}
+
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+.login{
+    height: 22px;
+width: 41px;
+border-radius: undefinedpx;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: right;
+  padding-left: 180px;
+  margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
  
 
 
